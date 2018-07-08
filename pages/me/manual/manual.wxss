@@ -1,0 +1,16 @@
+/* pages/me/manual/manual.wxss */
+
+.line {
+  height: 0.5rpx;
+  background-color: #d6d6d6;
+}
+
+.space {
+  height: 100rpx;
+}
+
+.section {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  font-size: 35rpx;
+}

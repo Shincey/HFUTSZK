@@ -1,0 +1,57 @@
+
+<scroll-view class='manual-page'>
+
+  <view class='space'></view>
+
+  <view class='line'></view>
+
+  <view class='section'>
+    <view>
+      <text>1. 题库已更新（2018.01）</text>
+    </view>
+  </view>
+
+  <view class='line'></view>
+  <view class='space'></view>
+
+  <view class='line'></view>
+
+  <view class='section'>
+    <view>
+      <text>2. 一些缓存数据（如保存错题和收集的题目，以及上次做题的位置）会保存在本地，在清理缓存数据时会将这些数据删除</text>
+    </view>
+  </view>
+
+  <view class='line'></view>
+  <view class='space'></view>
+  <view class='line'></view>
+
+  <view class='section'>
+    <view>
+      <text>3. 如果使用过程遇到问题，尝试清除本地缓存数据重启或者删除小程序重新下载试试，如若还不行到”联系我们“报告你的问题</text>
+    </view>
+  </view>
+
+  <view class='line'></view>
+  <view class='space'></view>
+  <view class='line'></view>
+
+  <view class='section'>
+    <view>
+      <text>4. 章节浏览和做题模块：长按对应的题目来收藏题目；错题和收藏模块：长按对应的题目来删除题目</text>
+    </view>
+  </view>
+
+  <view class='line'></view>
+  <view class='space'></view>
+  <view class='line'></view>
+
+  <view class='section'>
+    <view>
+      <text>5. 请将小程序分享给身边需要的人，谢谢</text>
+    </view>
+  </view>
+
+  <view class='line'></view>
+
+</scroll-view>

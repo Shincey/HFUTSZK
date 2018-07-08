@@ -1,0 +1,60 @@
+page {
+  background-color: #efeff4;
+}
+
+.hoder {
+  height: 80rpx;
+}
+
+.developers-page {
+  height: 100%;
+  background-color: #efeff4;
+}
+
+
+.developer {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  box-shadow:0px 2px 3px 3px #656565;
+  background-color: #777777;
+  border-radius: 20rpx;
+}
+
+.helper {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  box-shadow:0px 2px 3px 3px #656565;
+  background-color: #777777;
+   border-radius: 20rpx;
+}
+
+.name-view {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+}
+.name-text {
+  font-size: 40rpx;
+  color: white;
+}
+
+.contact-view {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  height: 50rpx;
+  line-height: 50rpx;
+}
+.contact-text {
+  font-size: 30rpx;
+  color: white;
+}
+
+
+.help-title-view {
+  margin-left: 20rpx;
+}
+.help-title {
+  font-size: 20rpx;
+  color: white;
+}

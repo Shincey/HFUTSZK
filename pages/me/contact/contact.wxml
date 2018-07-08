@@ -1,0 +1,41 @@
+
+<scroll-view class='contact-page'>
+
+  <view class='space'></view>
+
+  <view class='title'>
+    <text>很抱歉的通知大家，由于开发人员已毕业离校，经决定，不再对此项目做后续的维护。谢谢大家一直以来的陪伴。很期待以后会和你们有任何的合作交流的机会，你可以通过以下方式联系到我。致谢。</text>
+  </view>
+
+  <view class='space'></view>
+
+  <view class='line'></view>
+  <view class='notice'>
+    <text>长按复制邮箱</text>
+  </view>
+  <view class='line'></view>
+
+  <view class='space1'></view>
+
+  <view class='account' bindlongpress='on_long_press_email'>
+    <text>taoxinzhi@aliyun.com</text>
+  </view>
+
+  <view class='space'></view>
+
+  <view class='line'></view>
+  <view class='notice'>
+    <text>长按复制公众号</text>
+  </view>
+  <view class='line'></view>
+
+
+  <view class='space1'></view>
+
+  <view class='account' bindlongpress='on_long_press_account'>
+    <text>taoxinzhi1995</text>
+  </view>
+
+  <view class='space'></view>
+
+</scroll-view>

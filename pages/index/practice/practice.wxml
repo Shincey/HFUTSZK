@@ -1,0 +1,99 @@
+<!--pages/index/practice/practice.wxml-->
+<!--<text>pages/index/practice/practice.wxml</text>-->
+
+
+<scroll-view class='practice-page' bindlongpress='on_long_press_page'>
+
+<view class='index-view'>
+    <text>第 {{qIndex+1}}/{{qTotal}} 题  </text>
+</view>
+
+<view wx-if="{{qEntity != []}}">
+    <view class='subject-view'>
+      <text class='type-text' wx-if="{{qEntity[qIndex]._type == 1}}">[判断题]</text>
+      <text class='type-text' wx-if="{{qEntity[qIndex]._type == 2}}">[单选题]</text>
+      <text class='type-text' wx-if="{{qEntity[qIndex]._type == 3}}">[多选题]</text>
+      <text>{{qEntity[qIndex]._subject}}</text>
+    </view>
+
+    <view wx-if="{{qEntity[qIndex]._type == 1}}">
+        <view class='line'></view>
+        <view class="option" bindtap="submit" data-answer="1">
+            <text data-answer="1">A. 对</text>
+        </view>
+        <view class='line'></view>
+        <view class="option" bindtap="submit" data-answer="0">
+            <text data-answer="0">B. 错</text>
+        </view>
+        <view class='line'></view>
+    </view>
+
+    <view wx-if="{{qEntity[qIndex]._type != 1}}">
+
+        <view class='line'></view>
+
+        <view class='option' bindtap="submit" data-answer="A">
+            <text data-answer="A">A. {{qEntity[qIndex]._a}}</text>
+        </view>
+
+        <view class='line'></view>
+
+        <view class='option' bindtap="submit" data-answer="B">
+            <text data-answer="B">B. {{qEntity[qIndex]._b}}</text>
+        </view>
+
+        <view class='line'></view>
+
+        <view class='option' bindtap="submit" data-answer="C">
+            <text data-answer="C">C. {{qEntity[qIndex]._c}}</text>
+        </view>
+
+        <view class='line'></view>
+
+        <view class='option' bindtap="submit" data-answer="D">
+            <text data-answer="D">D. {{qEntity[qIndex]._d}}</text>
+        </view>
+
+        <view class='line' wx-if="{{qEntity[qIndex]._e != ''}}"></view>
+
+        <view class='option' wx-if="{{qEntity[qIndex]._e != ''}}" bindtap="submit" data-answer="E">
+            <text data-answer="E">E. {{qEntity[qIndex]._e}}</text>
+        </view>
+
+        <view class='line'></view>
+
+    </view>
+</view>
+
+
+
+
+<view class='selected-view' wx-if="{{hasChoosed == 1}}">
+    <text class='selected-text'>你选择了: {{u_answer}}</text>
+</view>
+
+<view class='right-answer-view' wx-if="{{showAnswer == 1}}">
+    <text class='right-answer-text'>正确答案: {{t_answer}}</text>
+</view>
+
+
+<view class='interval'></view>
+
+<view wx-if="{{qEntity[qIndex]._type == 3}}">
+    <button bindtap="multiSubmit">Submit Answer</button>
+</view>
+
+<view class='next-question-view' wx-if="{{showNext == 1}}">
+    <button bindtap="nextQ">下一题</button>
+</view>
+
+<view class='pre-question-view' wx-if="{{showPre == 1}}">
+  <button bindtap='preQ'>上一题</button>
+</view>
+
+
+</scroll-view>
+
+<block wx:if="{{brush}}">
+
+</block>

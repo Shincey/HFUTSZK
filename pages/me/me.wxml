@@ -1,0 +1,68 @@
+
+<scroll-view class='me_scrollview' scroll-y='true'>
+  <!-- 用户头像 -->
+  <view class='section_avatar'>
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+
+  <view class='place_hoder'></view>
+
+  <view class='section_outer_border'></view>
+  <!-- 我的错题 -->
+  <view style='background:{{section_color[0]}}' id='{{section_id[0]}}' class='section' bindtap='on_click_my_wrongs' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+    <image class='section_icon' src='../../images/me/icon_errors.png'></image>
+    <text class="section_title">我的错题</text>
+    <image class="section_arrow" src='../../images/public/icon_arrow_right.png'></image>
+  </view>
+  <view class='section_inner_border'></view>
+  <!-- 我的收集 -->
+  <view style='background:{{section_color[1]}}' id='{{section_id[1]}}' class='section' bindtap='on_click_my_collections' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+    <image class='section_icon' src='../../images/me/icon_collections.png'></image>
+    <text class="section_title">我的收集</text>
+    <image class="section_arrow" src='../../images/public/icon_arrow_right.png'></image>
+  </view>
+  <view class='section_outer_border'></view>
+
+  <view class='place_hoder'></view>
+
+  <view class='section_outer_border'></view>
+  <!-- 使用说明 -->
+  <view style='background:{{section_color[2]}}' id='{{section_id[2]}}' class='section' bindtap='on_click_manual' bindtap='on_click_manual' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+    <image class='section_icon' src='../../images/me/icon_manual.png'></image>
+    <text class="section_title">使用说明</text>
+    <image class="section_arrow" src='../../images/public/icon_arrow_right.png'></image>
+  </view>
+  <view class='section_inner_border'></view>
+  <!-- 联系我们 -->
+  <view style='background:{{section_color[3]}}' id='{{section_id[3]}}' class='section' bindtap='on_click_contact' bindtap='on_click_contact' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+    <image class='section_icon' src='../../images/me/icon_contact.png'></image>
+    <text class="section_title">联系我们</text>
+    <image class="section_arrow" src='../../images/public/icon_arrow_right.png'></image>
+  </view>
+  <view class='section_inner_border'></view>
+  <!-- 开发人员 -->
+  <view style='background:{{section_color[4]}}' id='{{section_id[4]}}' class='section' bindtap='on_click_developers' bindtap='on_click_developers' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+    <image class='section_icon' src='../../images/me/icon_developers.png'></image>
+    <text class="section_title">开发人员</text>
+    <image class="section_arrow" src='../../images/public/icon_arrow_right.png'></image>
+  </view>
+  <view class='section_outer_border'></view>
+
+  <view class='place_hoder'></view>
+
+     <!-- <view class='section_outer_border'></view> -->
+  <!-- 打赏作者 -->
+  <!-- <view style='background:{{section_color[5]}}' id='{{section_id[5]}}' class='section' bindtap='on_click_donate' bindtap='on_click_donate' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'> -->
+    <!-- <image class='section_icon' src='../../images/me/icon_donate.png'></image> -->
+    <!-- <text class="section_title">打赏作者</text> -->
+    <!-- <image class="section_arrow" src='../../images/public/icon_arrow_right.png'></image> -->
+  <!-- </view> -->
+  <!-- <view class='section_outer_border'></view> -->
+
+  <!-- <view class='place_hoder'></view>    -->
+
+</scroll-view>

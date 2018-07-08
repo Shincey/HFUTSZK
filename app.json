@@ -1,0 +1,39 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/index/select/select",
+    "pages/index/chapter/chapter",
+    "pages/index/practice/practice",
+    "pages/index/browse/browse",
+    "pages/me/me",
+    "pages/me/donate/donate",
+    "pages/me/contact/contact",
+    "pages/me/developers/developers",
+    "pages/me/manual/manual",
+    "pages/me/mywrongs/mywrongs",
+    "pages/me/mycollections/mycollections",
+    "pages/me/select_course/select_course",
+    "pages/me/browse_wc/browse_wc"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#333333",
+    "navigationBarTitleText": "工大思政课",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "思政课",
+      "iconPath": "images/public/icon_index_normal.png",
+      "selectedIconPath": "images/public/icon_index_selected.png"
+    }, {
+      "pagePath": "pages/me/me",
+      "text": "我",
+      "iconPath": "images/public/icon_me_normal.png",
+      "selectedIconPath": "images/public/icon_me_selected.png"
+    }],
+    "selectedColor": "#59d6e1",
+    "color": "#909090"
+  }
+}

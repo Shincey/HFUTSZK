@@ -1,0 +1,42 @@
+
+<scroll-view class='index_scrollview'>
+
+<view class='place_hoder'></view>
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[0]}}' id='{{section_id[0]}}' class='section' bindtap='on_click_section_mks' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <text class='section_title'>马克思主义基本原理概论</text>
+  <image class='section_icon' src='../../images/index/icon_mks.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[1]}}' id='{{section_id[1]}}' class='section' bindtap='on_click_section_sx' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <text class='section_title'>思想道德修养与法律基础</text>
+  <image class='section_icon' src='../../images/index/icon_sx.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[2]}}' id='{{section_id[2]}}' class='section' bindtap='on_click_section_mzt' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <text class='section_title'>毛泽东思想和中国特色社会主义理论体系概论</text>
+  <image class='section_icon' src='../../images/index/icon_mzt.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[3]}}' id='{{section_id[3]}}' class='section' bindtap='on_click_section_jds' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <text class='section_title'>中国近代史纲要</text>
+  <image class='section_icon' src='../../images/index/icon_jds.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+</scroll-view>

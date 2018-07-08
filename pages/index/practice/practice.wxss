@@ -1,0 +1,52 @@
+/* pages/index/practice/practice.wxss */
+
+.index-view {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.subject-view {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+
+.type-text {
+  color: #59d6e1;
+}
+
+.option {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 20rpx;
+  margin-top: 20rpx;
+}
+
+
+.line {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  height: 0.5rpx;
+  background-color: #d6d6d6;
+}
+
+.selected-view {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.selected-text {
+  color: red;
+}
+
+.right-answer-view {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.right-answer-text {
+  color: green;
+}
+
+.interval {
+  height: 100rpx;
+}

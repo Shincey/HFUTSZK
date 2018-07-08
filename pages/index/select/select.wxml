@@ -1,0 +1,56 @@
+<scroll-view class='select_chapter_scrollview'>
+
+<view class='place_hoder'></view>
+
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[0]}}' id='{{section_id[0]}}' class='section' bindtap='on_click_section_chapter_practice' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <image class='section_icon' src='../../../images/index/icon_chapter_practice.png'></image>
+  <text class='section_title'>章节练习</text>
+  <image class="section_arrow" src='../../../images/index/icon_next_page.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[1]}}' id='{{section_id[1]}}' class='section' bindtap='on_click_section_chapter_browse' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <image class='section_icon' src='../../../images/index/icon_chapter_browse.png'></image>
+  <text class='section_title'>章节浏览</text>
+  <image class="section_arrow" src='../../../images/index/icon_next_page.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[2]}}' id='{{section_id[2]}}' class='section' bindtap='on_click_section_type_practice' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <image class='section_icon' src='../../../images/index/icon_type_practice.png'></image>
+  <text class='section_title'>题型练习</text>
+  <image class="section_arrow" src='../../../images/index/icon_next_page.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[3]}}' id='{{section_id[3]}}' class='section' bindtap='on_click_section_type_browse' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <image class='section_icon' src='../../../images/index/icon_type_browse.png'></image>
+  <text class='section_title'>题型浏览</text>
+  <image class="section_arrow" src='../../../images/index/icon_next_page.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+<view class='section_outer_border'></view>
+<view style='background:{{section_color[4]}}' id='{{section_id[4]}}' class='section' bindtap='on_click_section_test_practice' bindtouchstart='on_touch_section_start' bindtouchend='on_touch_section_end'>
+  <image class='section_icon' src='../../../images/index/icon_test_practice.png'></image>
+  <text class='section_title'>随机练习</text>
+  <image class="section_arrow" src='../../../images/index/icon_next_page.png'></image>
+</view>
+<view class='section_outer_border'></view>
+
+<view class='place_hoder'></view>
+
+</scroll-view>

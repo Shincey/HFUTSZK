@@ -1,0 +1,36 @@
+<scroll-view>
+
+<block wx:if="{{course==0}}">
+<block wx:for="{{mks}}">
+<view class='space'></view>
+<button id='{{item}}' bindtap="on_click_btn_select_chapter" hover-class='select-chapter-btn-hover'>第{{item}}章</button>
+</block>
+<view class='space'></view>
+</block>
+
+
+<block wx:elif="{{course==1}}">
+<block wx:for="{{sx}}">
+<view class='space'></view>
+<button id='{{item}}' bindtap="on_click_btn_select_chapter" hover-class='select-chapter-btn-hover'>第{{item}}章</button>
+</block>
+<view class='space'></view>
+</block>
+
+<block wx:elif="{{course==2}}">
+<block wx:for="{{mzt}}">
+<view class='space'></view>
+<button id='{{item}}' bindtap="on_click_btn_select_chapter" hover-class='select-chapter-btn-hover'>第{{item}}章</button>
+</block>
+<view class='space'></view>
+</block>
+
+<block wx:elif="{{course==3}}">
+<block wx:for="{{jds}}">
+<view class='space'></view>
+<button id='{{item}}' bindtap="on_click_btn_select_chapter" hover-class='select-chapter-btn-hover'>第{{item}}章 </button>
+</block>
+<view class='space'></view>
+</block>
+
+</scroll-view>

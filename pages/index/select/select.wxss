@@ -1,0 +1,47 @@
+page {
+  background-color: #efeff4;
+}
+
+.index_scrollview {
+  height: 100%;
+}
+
+.place_hoder {
+  height: 50rpx;
+  font-size: 40rpx;
+  background-color: #efeff4;
+}
+
+.section_outer_border {
+  height: 0.5rpx;
+  background-color: #d6d6d6;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  height: 150rpx;
+  background-color: white;
+}
+
+.section_icon {
+  width: 100rpx;
+  height: 100rpx;
+  margin-left: 30rpx;
+  margin-top: 25rpx;
+}
+
+.section_title {
+  font-size: 40rpx;
+  color: #8a8a8a;
+  margin-left: 100rpx;
+  line-height: 150rpx;
+}
+
+.section_arrow {
+  position: absolute;
+  right: 30rpx;
+  margin-top: 51rpx;
+  width: 48rpx;
+  height: 48rpx;
+}

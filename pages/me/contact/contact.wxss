@@ -1,0 +1,39 @@
+
+
+.contact-page{
+  height: 100%;
+}
+
+.line {
+  margin-left: 300rpx;
+  margin-right: 300rpx;
+  height: 0.5rpx;
+  background-color: #d6d6d6;
+}
+
+.space {
+  height: 100rpx;
+}
+
+.space1 {
+  height: 20rpx;
+}
+
+.title {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.notice {
+  font-size: 20rpx;
+  text-align: center;
+}
+
+.account {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  height: 150rpx;
+  text-align: center;
+  line-height: 150rpx;
+  box-shadow:0px 1px 1px 1px grey;
+}

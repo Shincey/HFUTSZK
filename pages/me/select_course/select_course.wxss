@@ -1,0 +1,86 @@
+
+page {
+  background-color: #efeff4;
+}
+
+.select-course-page {
+  height: 100%;
+}
+
+.space {
+  height: 100rpx;
+}
+
+.option-view {
+  height: 130rpx;
+  padding-top: 20rpx;
+  background-color: white;
+  display: -webkit-flex;
+  flex-direction: row;
+}
+
+.icon-mks {
+  position: absolute;
+  left: 20rpx;
+  height: 100rpx;
+  width: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #b3d292;
+  flex: 2;
+  border-radius: 50rpx;
+}
+
+.icon-sx {
+  position: absolute;
+  left: 20rpx;
+  height: 100rpx;
+  width: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #eec182;
+  flex: 2;
+  border-radius: 50rpx;
+}
+
+.icon-mzt {
+  position: absolute;
+  left: 20rpx;
+  height: 100rpx;
+  width: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #ee8e92;
+  flex: 2;
+  border-radius: 50rpx;
+}
+
+.icon-jds {
+  position: absolute;
+  left: 20rpx;
+  height: 100rpx;
+  width: 100rpx;
+  line-height: 100rpx;
+  text-align: center;
+  background-color: #bcc9f8;
+  flex: 2;
+  border-radius: 50rpx;
+}
+
+.section {
+  position: absolute;
+  left: 140rpx;
+  background-color: white;
+  line-height: 100rpx;
+  font-size: 28rpx;
+  flex:13;
+}
+
+
+.icon-title {
+  color: white;
+}
+
+.option-hover {
+  opacity: 0.5;
+}

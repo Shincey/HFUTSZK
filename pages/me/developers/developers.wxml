@@ -1,0 +1,49 @@
+
+<scroll-view class='developers-page'>
+
+<view class='hoder'></view>
+
+<view class='developer' bindlongpress='on_long_press_developer_a'>
+  <view class='name-view'>
+    <text class='name-text'>陶新芝</text>
+  </view>
+  <view class='contact-view'>
+    <text class='contact-text'>QQ: {{dep_a_qq}}</text>
+  </view>
+  <view class='contact-view'>
+    <text class='contact-text'>Email: {{dep_a_email}}</text>
+  </view>
+</view>
+
+
+<view class='hoder'></view>
+
+<view class='developer' bindlongpress='on_long_press_developer_b'>
+  <view class='name-view'>
+    <text class='name-text'>史海滨</text>
+  </view>
+  <view class='contact-view'>
+    <text class='contact-text'>QQ: {{dep_b_qq}}</text>
+  </view>
+  <view class='contact-view'>
+    <text class='contact-text'>Email: {{dep_b_email}}</text>
+  </view>
+</view>
+
+<view class='hoder'></view>
+
+<view class='helper' bindlongpress='on_long_press_helper_a'>
+  <view class='help-title-view'>
+    <text class='help-title'>数据提供者</text>
+  </view>
+  <view class='name-view'>
+    <text class='name-text'>netcan</text>
+  </view>
+  <view class='contact-view'>
+    <text class='contact-text'>Blog: {{hep_a_blog}}</text>
+  </view>
+</view>
+
+<view class='hoder'></view>
+
+</scroll-view>

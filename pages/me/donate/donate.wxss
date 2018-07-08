@@ -1,0 +1,41 @@
+
+.description {
+  font-size: 25rpx;
+  line-height: 80rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.section_line {
+  height: 0.5rpx;
+  background-color: #d6d6d6;
+}
+
+.section_title {
+  font-size: 25rpx;
+  line-height: 80rpx;
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+}
+
+.wepay {
+  width: 440rpx;
+  height: 487rpx;
+  margin-left: 155rpx;
+}
+
+.alipay {
+  width: 395rpx;
+  height: 427rpx;
+  margin-left: 177rpx;
+}
+
+.aliacount {
+  font-size: 30rpx;
+  line-height: 200rpx;
+  margin-left: 30rpx;
+}
+
+.space {
+  height: 100rpx;
+}

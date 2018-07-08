@@ -1,0 +1,39 @@
+page {
+  background-color: #efeff4;
+}
+
+.index_scrollview {
+  height: 100%;
+}
+
+.place_hoder {
+  height: 88rpx;
+  font-size: 40rpx;
+  background-color: #efeff4;
+}
+
+.section_outer_border {
+  height: 0.5rpx;
+  background-color: #d6d6d6;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  height: 580rpx;
+  background-color: white;
+}
+
+.section_icon {
+  width: 700rpx;
+  height: 460rpx;
+  margin-left: 25rpx;
+  align-items: center;
+}
+
+.section_title {
+  font-size: 30rpx;
+  color: #8a8a8a;
+  text-align: center;
+  line-height: 88rpx;
+}

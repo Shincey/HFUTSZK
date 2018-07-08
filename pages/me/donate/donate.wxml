@@ -1,0 +1,30 @@
+<scroll-view>
+<view class='description'>
+<text>时间和精力都有限，创作不易，希望您能给予一定的支持。</text>
+</view>
+
+<view class='section_line'></view>
+
+<view class='section'>
+<text class='section_title'>常按图片保存到相册，使用 微信扫一扫 打开</text>
+<image class='wepay' src='../../../images/public/wepay.png' bindlongpress='on_long_tap_wepay'></image>
+</view>
+
+
+<view class='section_line'></view>
+
+<view class='section'>
+<text class='section_title'>常按图片保存到相册，使用 支付宝扫一扫 打开</text>
+<image class='alipay' src='../../../images/public/alipay.png' bindlongpress='on_long_tap_alipay'></image>
+</view>
+
+<view class='section_line'></view>
+
+<view class='section' bindlongpress='on_long_tap_aliaccount'>
+<text class='section_title'>常按复制支付宝账号</text>
+<text calss='aliacount'>taoxinzhi420594855@qq.com</text>
+</view>
+
+<view class='space'></view>
+
+</scroll-view>

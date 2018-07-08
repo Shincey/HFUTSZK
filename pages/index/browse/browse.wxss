@@ -1,0 +1,46 @@
+/* pages/index/browse/browse.wxss */
+page {
+  background-color: #efeff4;
+}
+
+.browse_page {
+  height: 100%;
+}
+
+.space {
+  height: 44rpx;
+}
+
+.one {
+  margin-left: 30rpx;
+  margin-right: 30rpx;
+  box-shadow:0px 2px 3px 3px grey;
+  background-color: white;
+}
+
+.subject_block {
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+
+.options_block {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  margin-bottom: 10rpx;
+}
+
+.answer_view {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+
+.answer_text {
+  color: #59d6e1;
+}
+
+.line {
+  height: 0.5rpx;
+  background-color: #d6d6d6;
+}

@@ -1,0 +1,12 @@
+/* pages/index/chapter/chapter.wxss */
+
+
+.space {
+  height: 44rpx;
+}
+
+
+
+.select-chapter-btn-hover {
+  background-color: #e2e2e2;
+}

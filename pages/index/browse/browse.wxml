@@ -1,0 +1,103 @@
+<!--pages/index/browse/browse.wxml-->
+
+
+
+<scroll-view class='browse_page'>
+
+<block wx:for="{{subjects_array}}">
+
+<view class='space'></view>
+
+<view class='one' bindlongpress='on_long_press_subject' data-i="{{index}}">
+
+<view class='subject_block'>
+  <text class='subject_text'>{{index+1}}.{{item._subject}}</text>
+</view>
+
+<view class='options_block'>
+
+
+  <view wx:if="{{item._type == 1}}">
+    <view class='line'></view>
+    <view class='option_right'>
+      <text>A.对</text>
+    </view>
+    <view class='line'></view>
+    <view class='option_wrong'>
+      <text>B.错</text>
+    </view>
+    <view class='line'></view>
+  </view>
+
+
+  <view wx:if="{{item._type == 2}}">
+    <view class='line'></view>
+    <view class='option_a'>
+      <text>A.{{item._a}}</text>
+    </view>
+    <view class='line'></view>
+    <view class='option_b'>
+      <text>B.{{item._b}}</text>
+    </view>
+    <view class='line'></view>
+    <view class='option_c'>
+      <text>C.{{item._c}}</text>
+    </view>
+    <view class='line'></view>
+    <view class='option_d'>
+      <text>D.{{item._d}}</text>
+    </view>
+
+    <view class='line' wx:if="{{item._e != ''}}"></view>
+
+    <view class='option_e' wx:if="{{item._e != ''}}">
+      <text>E.{{item._e}}</text>
+    </view>
+    <view class='line'></view>
+  </view>
+
+
+  <view wx:if="{{item._type == 3}}">
+    <view class='line'></view>
+    <view class='option_a'>
+      <text>A.{{item._a}}</text>
+    </view>
+    <view class='line'></view>
+    <view class='option_b'>
+      <text>B.{{item._b}}</text>
+    </view>
+    <view class='line'></view>
+    <view class='option_c'>
+      <text>C.{{item._c}}</text>
+    </view>
+    <view class='line'></view>
+    <view class='option_d'>
+      <text>D.{{item._d}}</text>
+    </view>
+    <view class='line' wx:if="{{item._e != ''}}"></view>
+    <view class='option_e' wx:if="{{item._e != ''}}">
+      <text>E.{{item._e}}</text>
+    </view>
+    <view class='line'></view>
+  </view>
+
+
+</view>
+
+<view class='answer_view'>
+  <view wx:if="{{item._type == 1}}">
+    <text class='answer_text' wx:if="{{item._answer == '1'}}">正确答案：对</text>
+    <text class='answer_text' wx:if="{{item._answer == '0'}}">正确答案：错</text>
+  </view>
+  <view wx:else>
+    <text class='answer_text'>正确答案：{{item._answer}}</text>
+  </view>
+</view>
+
+</view>
+
+</block>
+
+<view class='space'></view>
+
+</scroll-view>

@@ -1,0 +1,35 @@
+
+<scroll-view class='select-course-page'>
+
+  <view class='space'></view>
+
+  <view class='option-view' hover-class='option-hover' data-option='0' bindtap='on_click_select_course'>
+    <view class='icon-mks'><text class='icon-title'>马</text></view>
+    <view class='section'><text class='section-title'>马克思主义基本原理概论</text></view>
+  </view>
+
+  <view class='space'></view>
+
+  <view class='option-view' hover-class='option-hover' data-option='1' bindtap='on_click_select_course'>
+    <view class='icon-sx'><text class='icon-title'>思</text></view>
+    <view class='section'><text class='section-title'>思想道德修养与法律基础</text></view>
+  </view>
+
+  <view class='space'></view>
+
+
+  <view class='option-view' hover-class='option-hover' data-option='2' bindtap='on_click_select_course'>
+    <view class='icon-mzt'><text class='icon-title'>毛</text></view>
+    <view class='section'><text class='section-title'>毛泽东思想和中国特色社会主义理论体系概论</text></view>
+  </view>
+
+  <view class='space'></view>
+
+  <view class='option-view' hover-class='option-hover' data-option='3' bindtap='on_click_select_course'>
+    <view class='icon-jds'><text class='icon-title'>近</text></view>
+    <view class='section'><text class='section-title'>中国近代史纲要</text></view>
+  </view>
+
+  <view class='space'></view>
+
+</scroll-view>
